@@ -1,0 +1,844 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Car Sales Data)' inline='true' name='federated.1u13my20dtoueo0zu0f6w0q58tdx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Car Sales Data' name='excel-direct.01avuns01cz7y019gnq7v1jz5isi'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Tableau/Car Sales Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.01avuns01cz7y019gnq7v1jz5isi' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Car_id' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Customer Name' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='integer' name='Annual Income' ordinal='4' />
+            <column datatype='string' name='Dealer_Name' ordinal='5' />
+            <column datatype='string' name='Company' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Engine' ordinal='8' />
+            <column datatype='string' name='Transmission' ordinal='9' />
+            <column datatype='string' name='Color' ordinal='10' />
+            <column datatype='integer' name='Price ($)' ordinal='11' />
+            <column datatype='string' name='Dealer_No' ordinal='12' />
+            <column datatype='string' name='Body Style' ordinal='13' />
+            <column datatype='integer' name='Phone' ordinal='14' />
+            <column datatype='string' name='Dealer_Region' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.01avuns01cz7y019gnq7v1jz5isi' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Car_id' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Customer Name' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='integer' name='Annual Income' ordinal='4' />
+            <column datatype='string' name='Dealer_Name' ordinal='5' />
+            <column datatype='string' name='Company' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Engine' ordinal='8' />
+            <column datatype='string' name='Transmission' ordinal='9' />
+            <column datatype='string' name='Color' ordinal='10' />
+            <column datatype='integer' name='Price ($)' ordinal='11' />
+            <column datatype='string' name='Dealer_No' ordinal='12' />
+            <column datatype='string' name='Body Style' ordinal='13' />
+            <column datatype='integer' name='Phone' ordinal='14' />
+            <column datatype='string' name='Dealer_Region' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P10001:no:A1:P10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Car_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Car_id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Car_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual Income]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Annual Income</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dealer_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dealer_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dealer_Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engine</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Engine]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Engine</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transmission</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Transmission]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Transmission</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Color</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Color]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Color</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price ($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price ($)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Price ($)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dealer_No</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dealer_No]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dealer_No</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Body Style</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Body Style]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Body Style</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Phone]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Phone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dealer_Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dealer_Region]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dealer_Region</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='YOY Sales Growth' datatype='real' name='[Calculation_1043990703452475392]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_153122401661902848]- [ytd total sales (copy)_153122401664073729])/ [ytd total sales (copy)_153122401664073729]' />
+      </column>
+      <column caption='YTD Car Sold' datatype='integer' name='[Calculation_1043990703460519944]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='count (IF&#13;&#10;year([Date]) = {max (YEAR([Date]))}&#13;&#10;THEN&#13;&#10;[Car_id]&#13;&#10;end)' />
+      </column>
+      <column caption='YOY Car Sold' datatype='real' name='[Calculation_1043990703461122058]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_1043990703460519944]- [YTD Car Sold (copy)_1043990703461044233])/ [YTD Car Sold (copy)_1043990703461044233]' />
+      </column>
+      <column caption='YTD Avg. Price' datatype='real' name='[Calculation_1043990703464398859]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_153122401661902848]/ [Calculation_1043990703460519944]' />
+      </column>
+      <column caption='YOY Avg. Price' datatype='real' name='[Calculation_1043990703464898573]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_1043990703464398859]- [YTD Avg. Price (copy)_1043990703464710156]) / [YTD Avg. Price (copy)_1043990703464710156]' />
+      </column>
+      <column caption='ytd total sales' datatype='integer' default-format='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' name='[Calculation_153122401661902848]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+      </column>
+      <column caption='Car id' datatype='string' name='[Car_id]' role='dimension' type='nominal' />
+      <column caption='Dealer Name' datatype='string' name='[Dealer_Name]' role='dimension' type='nominal' />
+      <column caption='Dealer No' datatype='string' name='[Dealer_No]' role='dimension' type='nominal' />
+      <column caption='Dealer Region' datatype='string' name='[Dealer_Region]' role='dimension' type='nominal' />
+      <column caption='PYTD Avg. Price ' datatype='real' name='[YTD Avg. Price (copy)_1043990703464710156]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[ytd total sales (copy)_153122401664073729]/ [YTD Car Sold (copy)_1043990703461044233]' />
+      </column>
+      <column caption='PYTD Car Sold (copy)' datatype='integer' name='[YTD Car Sold (copy)_1043990703461044233]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='count (IF&#13;&#10;year([Date]) = {max (YEAR([Date]))} - 1&#13;&#10;THEN&#13;&#10;[Car_id]&#13;&#10;end)' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0]' role='measure' type='quantitative' />
+      <column caption='Pytd total sales ' datatype='integer' name='[ytd total sales (copy)_153122401664073729]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}-1&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+      </column>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_1D15C5A3BB594CFF90B67C8AF727D5D0'>
+            <properties context=''>
+              <relation connection='excel-direct.01avuns01cz7y019gnq7v1jz5isi' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Car_id' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='string' name='Customer Name' ordinal='2' />
+                  <column datatype='string' name='Gender' ordinal='3' />
+                  <column datatype='integer' name='Annual Income' ordinal='4' />
+                  <column datatype='string' name='Dealer_Name' ordinal='5' />
+                  <column datatype='string' name='Company' ordinal='6' />
+                  <column datatype='string' name='Model' ordinal='7' />
+                  <column datatype='string' name='Engine' ordinal='8' />
+                  <column datatype='string' name='Transmission' ordinal='9' />
+                  <column datatype='string' name='Color' ordinal='10' />
+                  <column datatype='integer' name='Price ($)' ordinal='11' />
+                  <column datatype='string' name='Dealer_No' ordinal='12' />
+                  <column datatype='string' name='Body Style' ordinal='13' />
+                  <column datatype='integer' name='Phone' ordinal='14' />
+                  <column datatype='string' name='Dealer_Region' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='YTD Avg. Price'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Car Sales Data)' name='federated.1u13my20dtoueo0zu0f6w0q58tdx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u13my20dtoueo0zu0f6w0q58tdx'>
+            <column caption='YTD Car Sold' datatype='integer' name='[Calculation_1043990703460519944]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='count (IF&#13;&#10;year([Date]) = {max (YEAR([Date]))}&#13;&#10;THEN&#13;&#10;[Car_id]&#13;&#10;end)' />
+            </column>
+            <column caption='YTD Avg. Price' datatype='real' name='[Calculation_1043990703464398859]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_153122401661902848]/ [Calculation_1043990703460519944]' />
+            </column>
+            <column caption='YOY Avg. Price' datatype='real' name='[Calculation_1043990703464898573]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_1043990703464398859]- [YTD Avg. Price (copy)_1043990703464710156]) / [YTD Avg. Price (copy)_1043990703464710156]' />
+            </column>
+            <column caption='ytd total sales' datatype='integer' default-format='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' name='[Calculation_153122401661902848]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+            </column>
+            <column caption='Car id' datatype='string' name='[Car_id]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Price ($)]' role='measure' type='quantitative' />
+            <column caption='PYTD Avg. Price ' datatype='real' name='[YTD Avg. Price (copy)_1043990703464710156]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[ytd total sales (copy)_153122401664073729]/ [YTD Car Sold (copy)_1043990703461044233]' />
+            </column>
+            <column caption='PYTD Car Sold (copy)' datatype='integer' name='[YTD Car Sold (copy)_1043990703461044233]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='count (IF&#13;&#10;year([Date]) = {max (YEAR([Date]))} - 1&#13;&#10;THEN&#13;&#10;[Car_id]&#13;&#10;end)' />
+            </column>
+            <column-instance column='[Calculation_1043990703464398859]' derivation='User' name='[usr:Calculation_1043990703464398859:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1043990703464898573]' derivation='User' name='[usr:Calculation_1043990703464898573:qk]' pivot='key' type='quantitative' />
+            <column caption='Pytd total sales ' datatype='integer' name='[ytd total sales (copy)_153122401664073729]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}-1&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703464898573:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703464398859:qk]' value='c&quot;$&quot;#,##0,.00K;(&quot;$&quot;#,##0,.00K)' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703464398859:qk]' />
+              <text column='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703464898573:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#a0cbe8' fontname='Tableau Bold' fontsize='15'>YTD Avg. Price</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#ffffff' fontname='Stencil Std' fontsize='15'><![CDATA[<[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703464398859:qk]> |]]></run>
+                <run fontname='Stencil Std' fontsize='15'>Æ </run>
+                <run fontcolor='#f1ce63' fontname='Bell Gothic Std'><![CDATA[YOY Ptice growth <[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703464898573:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D7FC062D-08C8-4D95-B60C-4FA97B247BFF}' />
+    </worksheet>
+    <worksheet name='YTD Car Sold&amp; YOY Sales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Car Sales Data)' name='federated.1u13my20dtoueo0zu0f6w0q58tdx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u13my20dtoueo0zu0f6w0q58tdx'>
+            <column caption='YTD Car Sold' datatype='integer' name='[Calculation_1043990703460519944]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='count (IF&#13;&#10;year([Date]) = {max (YEAR([Date]))}&#13;&#10;THEN&#13;&#10;[Car_id]&#13;&#10;end)' />
+            </column>
+            <column caption='YOY Car Sold' datatype='real' name='[Calculation_1043990703461122058]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_1043990703460519944]- [YTD Car Sold (copy)_1043990703461044233])/ [YTD Car Sold (copy)_1043990703461044233]' />
+            </column>
+            <column caption='Car id' datatype='string' name='[Car_id]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='PYTD Car Sold (copy)' datatype='integer' name='[YTD Car Sold (copy)_1043990703461044233]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='count (IF&#13;&#10;year([Date]) = {max (YEAR([Date]))} - 1&#13;&#10;THEN&#13;&#10;[Car_id]&#13;&#10;end)' />
+            </column>
+            <column-instance column='[Calculation_1043990703460519944]' derivation='User' name='[usr:Calculation_1043990703460519944:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1043990703461122058]' derivation='User' name='[usr:Calculation_1043990703461122058:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703460519944:qk]' value='n&quot;#&quot;#,##0,.00K;-&quot;#&quot;#,##0,.00K' />
+            <format attr='text-format' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703461122058:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703460519944:qk]' />
+              <text column='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703461122058:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#75a1c7' fontname='Bell Gothic Std' fontsize='11'>YTD Car Sales</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#ffffff' fontname='Stencil Std' fontsize='24'><![CDATA[<[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703460519944:qk]>]]></run>
+                <run fontcolor='#ffffff' fontname='Arial Black' fontsize='24'> | </run>
+                <run fontcolor='#f1ce63' fontname='Bell Gothic Std' fontsize='11'><![CDATA[YOY Growth <[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703461122058:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{035226C9-FEEE-483A-B19A-72B246D9D0E8}' />
+    </worksheet>
+    <worksheet name='YTD Sales Weekly Trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Car Sales Data)' name='federated.1u13my20dtoueo0zu0f6w0q58tdx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u13my20dtoueo0zu0f6w0q58tdx'>
+            <column caption='ytd total sales' datatype='integer' default-format='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' name='[Calculation_153122401661902848]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Price ($)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_153122401661902848]' derivation='User' name='[usr:Calculation_153122401661902848:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week' name='[wk:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[wk:Date:qk]' field-type='quantitative' max='56' min='0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+        </panes>
+        <rows>([federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk] + [federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk])</rows>
+        <cols>[federated.1u13my20dtoueo0zu0f6w0q58tdx].[wk:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{9FA2CF11-2485-4AEE-A370-A744B997BAF4}' />
+    </worksheet>
+    <worksheet name='YTD Total Sales &amp; YOY Sales Growth'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Car Sales Data)' name='federated.1u13my20dtoueo0zu0f6w0q58tdx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u13my20dtoueo0zu0f6w0q58tdx'>
+            <column caption='YOY Sales Growth' datatype='real' name='[Calculation_1043990703452475392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_153122401661902848]- [ytd total sales (copy)_153122401664073729])/ [ytd total sales (copy)_153122401664073729]' />
+            </column>
+            <column caption='ytd total sales' datatype='integer' default-format='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' name='[Calculation_153122401661902848]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Price ($)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1043990703452475392]' derivation='User' name='[usr:Calculation_1043990703452475392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_153122401661902848]' derivation='User' name='[usr:Calculation_153122401661902848:qk]' pivot='key' type='quantitative' />
+            <column caption='Pytd total sales ' datatype='integer' name='[ytd total sales (copy)_153122401664073729]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum(IF &#13;&#10;year([Date])=  {max(Year([Date]))}-1&#13;&#10;then&#13;&#10;[Price ($)]&#13;&#10;END)' />
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#f1ce63' />
+            <format attr='text-format' field='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703452475392:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk]' />
+              <text column='[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703452475392:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#75a1c7' fontname='Bell Gothic Std'>YTD Total Sales</run>
+                <run>Æ&#10;&#10;</run>
+                <run fontcolor='#ffffff' fontname='Stencil Std' fontsize='15'><![CDATA[<[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_153122401661902848:qk]> ]]></run>
+                <run fontcolor='#000000' fontname='Stencil Std' fontsize='15'>Æ </run>
+                <run fontcolor='#ffffff' fontname='Stencil Std' fontsize='15'>| </run>
+                <run fontname='Bell Gothic Std' fontsize='11'><![CDATA[Year on Year Growth <[federated.1u13my20dtoueo0zu0f6w0q58tdx].[usr:Calculation_1043990703452475392:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{03931AC5-0BCF-40F0-ADC2-0F8A27F69966}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98222' id='3' is-scaled='1' param='D:/Tableau/Car Sales Background.jpg' type-v2='bitmap' w='99000' x='500' y='889'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='11556' id='5' name='YTD Total Sales &amp; YOY Sales Growth' show-title='false' w='26063' x='15813' y='11222' />
+        <zone h='9889' id='6' name='YTD Avg. Price' show-title='false' w='24500' x='43313' y='12000' />
+        <zone h='9778' id='7' name='YTD Car Sold&amp; YOY Sales' show-title='false' w='25438' x='71250' y='12444' />
+        <zone h='3444' id='8' is-centered='0' is-scaled='1' param='D:/Tableau/Images Used/Sales Icon.png' type-v2='bitmap' w='3875' x='38875' y='12889' />
+        <zone h='4111' id='9' is-centered='0' is-scaled='1' param='D:/Tableau/Images Used/Avg Price Icon.png' type-v2='bitmap' w='3875' x='66000' y='12778' />
+        <zone h='3667' id='10' is-centered='0' is-scaled='1' param='D:/Tableau/Images Used/Cars Sold Icon.png' type-v2='bitmap' w='2188' x='94625' y='12889' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1E4B74A0-6D00-4300-B2A6-DC839C3F0C50}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='YTD Car Sold&amp; YOY Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8D91AA05-D3E7-46A6-88D7-8860AC934BFF}' />
+    </window>
+    <window class='worksheet' name='YTD Avg. Price'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{1F804A6B-2721-4676-A1FC-9D47B63F06F3}' />
+    </window>
+    <window class='worksheet' name='YTD Total Sales &amp; YOY Sales Growth'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3077C5A7-117A-4AD9-99C3-C382CDCD101A}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='YTD Avg. Price'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='YTD Car Sold&amp; YOY Sales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='YTD Total Sales &amp; YOY Sales Growth'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{52016C98-7066-4060-B108-58F7693C7379}' />
+    </window>
+    <window class='worksheet' maximized='true' name='YTD Sales Weekly Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7A46AA61-BCB0-440E-A5C4-EA2150712D7F}' />
+    </window>
+  </windows>
+</workbook>
